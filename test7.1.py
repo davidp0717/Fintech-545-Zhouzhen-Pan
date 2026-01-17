@@ -15,6 +15,4 @@ def normal_dist():
     return mu_hat, sigma_hat
 
 mu, sigma = normal_dist()
-print("mu =", mu)
-print("sigma =", sigma)
-
+float(mu), float(sigma)
